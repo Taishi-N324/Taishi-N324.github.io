@@ -5,46 +5,35 @@
  text-align: left;
  display: inline-block;
 }
-
-.body {
-    background-color: #778899;
+body {
+    background-color: #22232f;
+    background-image: url("../img/background.jpeg");
+    background-size: cover;
+    color: white;
     }
-
-
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
-
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
-
-/* Twitter */
 .fa-twitter {
   background: #55ACEE;
   color: white;
 }
-
-
-/* Instagram */
 .fa-instagram {
-  background: #ff00ff;
+  background: #b942b9;
   color: white;
 }
-
-/* Github */
 .fa-github {
-  background: #55ACEE;
+  background: #0c1217;
   color: white;
 }
-
-/* Style all font awesome icons */
-
+.fa-linkedin {
+  background: #153853;
+  color: white;
+}
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -52,4 +41,10 @@
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+}
+p{
+  text-indent: 3em;
+}
+h3{
+  text-indent: 1em;
 }
