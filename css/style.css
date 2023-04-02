@@ -6,8 +6,7 @@
  display: inline-block;
 }
 body {
-    background-color: #22232f;
-    background-image: url("../img/background.jpeg");
+    background-color: #323232;
     background-size: cover;
     color: white;
     }
@@ -15,6 +14,8 @@ body {
   opacity: 0.7;
 }
 .fa-facebook {
+  width: 200px;
+  height: auto;
   background: #3B5998;
   color: white;
 }
@@ -75,4 +76,36 @@ nav li a {
 
 nav li a:hover {
   background-color: #111;
+}
+
+.graph-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  padding-left: 1em;
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text img {
+  padding-left: 1em;
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.logo-text p {
+  margin: 0;
+}
+
+.sns img {
+  padding-left: 3em;
 }

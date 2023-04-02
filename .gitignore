@@ -1,0 +1,20 @@
+.DS_Store
+.Trashes
+*.swp
+*.lock
+# Local environment configuration file
+.env
+/config/database.yml
+# Libraries and packages with dependencies
+/node_modules
+/vendor
+# build files and compilation results
+/dist
+/build
+*.log
+# Backup files and test files
+*.bak
+*.backup
+*.old
+/backup
+/test
