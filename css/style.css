@@ -78,11 +78,6 @@ nav li a:hover {
   background-color: #111;
 }
 
-.graph-container {
-  display: flex;
-  justify-content: center;
-}
-
 .logo {
   padding-left: 1em;
   width: 100px;
@@ -108,4 +103,9 @@ nav li a:hover {
 
 .sns img {
   padding-left: 3em;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
 }
