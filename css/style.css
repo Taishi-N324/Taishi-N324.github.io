@@ -135,3 +135,23 @@ canvas {
     padding: 10px 12px;
   }
 }
+
+.paper-info {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 0px; 
+}
+
+.paper-info p {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 0px; 
+}
+
+@media (max-width: 768px) {
+  .paper-info {
+    padding: 10px; 
+  }
+}
