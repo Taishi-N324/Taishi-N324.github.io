@@ -155,3 +155,20 @@ canvas {
     padding: 10px; 
   }
 }
+
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.profile-image {
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  flex: 1;
+}
